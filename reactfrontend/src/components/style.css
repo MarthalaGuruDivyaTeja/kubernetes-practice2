@@ -1,0 +1,134 @@
+/* 🎨 Clean Modern Light Theme - No Borders */
+.hostel-container {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  color: #2d3748;
+}
+
+h2, h3 {
+  color: #1a365d;
+  font-weight: 600;
+  margin-bottom: 18px;
+  letter-spacing: -0.3px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0 18px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #f7fafc;
+  color: #2d3748;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #4299e1;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+button {
+  padding: 12px 22px;
+  margin: 10px 10px 0 0;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-blue {
+  background-color: #4299e1;
+}
+
+.btn-blue:hover {
+  background-color: #3182ce;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(66, 153, 225, 0.3);
+}
+
+.btn-green {
+  background-color: #48bb78;
+}
+
+.btn-green:hover {
+  background-color: #38a169;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(72, 187, 120, 0.3);
+}
+
+.btn-red {
+  background-color: #f56565;
+}
+
+.btn-red:hover {
+  background-color: #e53e3e;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(245, 101, 101, 0.3);
+}
+
+.btn-gray {
+  background-color: #a0aec0;
+}
+
+.btn-gray:hover {
+  background-color: #718096;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(160, 174, 192, 0.3);
+}
+
+/* 📊 Clean table with no horizontal lines */
+table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 15px;
+  border: none;
+}
+
+th {
+  background: #edf2f7;
+  font-weight: 600;
+  color: #1a365d;
+  border-bottom: 2px solid #cbd5e0;
+<<<<<<< HEAD
+=======
+}
+
+td {
+  background: #ffffff;
+  color: #2d3748;
+}
+
+tr:hover td {
+  background-color: #f7fafc;
+  transition: background-color 0.2s ease;
+>>>>>>> d1bfe9b9d4958ecabf7d228d1f5c78b6240fa7f1
+}
+
+td {
+  background: #ffffff;
+  color: #2d3748;
+}
+
+tr:hover td {
+  background-color: #f7fafc;
+  transition: background-color 0.2s ease;
+}
