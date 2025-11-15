@@ -22,7 +22,7 @@ mysql:
 # Backend Configuration
 # =====================
 backend:
-  image: marthalagurudivyateja/kubernetes-demo-backend:latest
+  image: marthalagurudivyateja/kubernetes-demo1-backend:latest
   replicas: 2
   port: 2000
   nodePort: 30029
@@ -43,7 +43,7 @@ backend:
 # Frontend Configuration
 # =====================
 frontend:
-  image: marthalagurudivyateja/kubernetes-demo-frontend:latest
+  image: marthalagurudivyateja/kubernetes-demo1-frontend:latest
   replicas: 2
   port: 80
   nodePort: 30067
