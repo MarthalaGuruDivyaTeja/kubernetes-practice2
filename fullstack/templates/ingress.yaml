@@ -20,7 +20,7 @@ spec:
                   number: 80
 
           # Backend served at /backend/
-          - path: /api
+          - path: /hostelapi
             pathType: Prefix
             backend:
               service:

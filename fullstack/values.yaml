@@ -61,4 +61,4 @@ frontend:
     targetCPUUtilizationPercentage: 50
 
   # Point frontend to backend service
-  apiUrl: "/api"
+  apiUrl: "/hostelapi"
